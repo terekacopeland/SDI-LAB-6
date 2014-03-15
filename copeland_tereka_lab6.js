@@ -7,10 +7,9 @@
 
 var walkingDeadCharacters = function() {
 	
+	console.log("The Walking Dead is my favorite show!");
 	var walkingDeadCharacters = ["Bob", "Glen", "Maggie", "Rick", "Michonne"];
 	var walkingDeadWeapons = ["knife", "bat", "hammer", "gun", "sword"];
-	console.log(walkingDeadCharacters);
-	console.log(walkingDeadWeapons);
 	
 	for (var i = 0; i < walkingDeadCharacters.length; i++) {
 		
@@ -23,7 +22,7 @@ var walkingDeadCharacters = function() {
 	walkingDeadWeapons.push("axe");
 	console.log(walkingDeadCharacters);
 	console.log(walkingDeadWeapons);
-	
+	console.log(walkingDeadCharacters[5] + " was added with the weapon " + walkingDeadWeapons[5] + ".");
 	
 };
 
