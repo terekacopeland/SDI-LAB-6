@@ -9,6 +9,8 @@ var walkingDeadCharacters = function() {
 	
 	var walkingDeadCharacters = ["Bob", "Glen", "Maggie", "Rick", "Michonne"];
 	var walkingDeadWeapons = ["knife", "bat", "hammer", "gun", "sword"];
+	console.log(walkingDeadCharacters);
+	console.log(walkingDeadWeapons);
 	
 	for (var i = 0; i < walkingDeadCharacters.length; i++) {
 		
@@ -16,6 +18,11 @@ var walkingDeadCharacters = function() {
 		
 	
 	};
+	
+	walkingDeadCharacters.push("Carol");
+	walkingDeadWeapons.push("axe");
+	console.log(walkingDeadCharacters);
+	console.log(walkingDeadWeapons);
 	
 	
 };
