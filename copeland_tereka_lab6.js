@@ -12,10 +12,12 @@ var walkingDeadCharacters = function() {
 	
 	for (var i = 0; i < walkingDeadCharacters.length; i++) {
 		
-		console.log(walkingDeadCharacters[i] + " uses the " + walkingDeadWeapons[i] );
+		console.log(walkingDeadCharacters[i] + " uses the " + walkingDeadWeapons[i] + ".");
 		
 	
 	};
 	
 	
 };
+
+walkingDeadCharacters();
